@@ -15,7 +15,7 @@ Education
 
 Research Interests
 ======
-* Scientific mechine learning
+* Scientific machine learning
 
 Site-wide configuration
 ------
