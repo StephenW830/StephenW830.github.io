@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "University of Science and Technology of China"
   location         : "Earth"
-  employer         : "USTC"
+  # employer         : "USTC"
   uri              : # URL
   email            : "wxp@mail.ustc.edu.cn" 
 
