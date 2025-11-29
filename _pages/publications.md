@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-- Loss Landscape Analysis of Scientific Machine Learning Models
+- **Loss Landscape Analysis of Scientific Machine Learning Models**
 
   Yuanzhe Hu, Haiquan Lu, Yuxin Wang, **Xiaopeng Wang**, Xiaokun Zhong, Pu Ren, Tianyu Pang, Xiaotian Liu, Yujun Yan, Yaoqing Yang
   
