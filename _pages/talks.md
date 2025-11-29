@@ -3,8 +3,7 @@ layout: archive
 permalink: /awards/
 author_profile: true
 ---
-======
+
 * 🥈 **2nd Prize in Anhui Province in 15th Mathematics Competition of Chinese College Students**
 
-======
 * 🎓 **Longfor Scholarship honored by USTC**
