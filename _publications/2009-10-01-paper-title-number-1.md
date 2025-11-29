@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 1"
+title: "Loss Landscape Analysis of Scientific Machine Learning Models"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
