@@ -28,16 +28,16 @@ Xiaotian Liu, Shuyuan Shang, <b>Xiaopeng Wang</b>, Pu Ren, Yaoqing Yang
 </p>
 
 <p>
-<a href="#">Paper</a> |
-<a href="#">Code</a> |
-<a href="#">Website</a>
+<a href="[#](https://arxiv.org/abs/2605.24041)">Paper</a> |
+<a href="[#](https://github.com/xiaotianliu-dartmouth/Iterative_Refinement_Neural_Operator/)">Code</a> |
+<a href="[#](https://xiaotianliu-dartmouth.github.io/IRNO_ICML_26_Spotlight/)">Website</a>
 </p>
 
 </td>
 
 </tr>
 </table>
-</table>
+
 
 
 
