@@ -5,11 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 
-- **Loss Landscape Analysis of Scientific Machine Learning Models**
+<img src="images/neurips.png" width="20"/>
 
-  Yuanzhe Hu, Haiquan Lu, Yuxin Wang, **Xiaopeng Wang**, Xiaokun Zhong, Pu Ren, Tianyu Pang, Xiaotian Liu, Yujun Yan, Yaoqing Yang
-  
-  *Submitted to NeurIPS 2025 ML4PS Workshop*
+**Iterative Refinement Neural Operators are Learned Fixed-Point Solvers: A Principled Approach to Spectral Bias Mitigation**
+
+Xiaotian Liu, Shuyuan Shang, **Xiaopeng Wang**, Pu Ren, Yaoqing Yang
+
+*ICML 2026, Spotligh (Top 2.2%)*
 
 
 
