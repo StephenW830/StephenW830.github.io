@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<img src="images/IRON.png" width="20"/>
+<img src="images/IRNO.png" width="20"/>
 
 **Iterative Refinement Neural Operators are Learned Fixed-Point Solvers: A Principled Approach to Spectral Bias Mitigation**
 
