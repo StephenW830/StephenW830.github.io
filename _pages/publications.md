@@ -5,14 +5,14 @@ permalink: /publications/
 author_profile: true
 ---
 
-<table>
+<table style="border:none; border-collapse:collapse;">
 <tr>
 
-<td width="40%">
+<td width="40%" style="border:none;">
 <img src="../images/IRNO.png" width="100%"/>
 </td>
 
-<td width="60%" valign="top">
+<td width="60%" valign="top" style="border:none;">
 
 <h3>
 Iterative Refinement Neural Operators are Learned Fixed-Point Solvers:
