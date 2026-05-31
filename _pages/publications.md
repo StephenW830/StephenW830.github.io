@@ -63,7 +63,7 @@ Yuxin Wang*, Yuanzhe Hu*, Xiaokun Zhong*, <b>Xiaopeng Wang*</b>, Haiquan Lu, Tia
 
 <p>
 <a href="https://arxiv.org/abs/2605.29153">Paper</a> |
-<a href="https://github.com/leastima/sciml_multi_regime">Code</a> |
+<a href="https://github.com/leastima/sciml_multi_regime">Code</a> 
 </p>
 
 </td>
