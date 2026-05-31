@@ -38,6 +38,39 @@ Xiaotian Liu, Shuyuan Shang, <b>Xiaopeng Wang</b>, Pu Ren, Yaoqing Yang
 </tr>
 </table>
 
+---
+
+<table style="border:none; border-collapse:collapse;">
+<tr>
+
+<td width="35%" style="border:none;">
+<img src="../images/loss_landscape_comparison.png" width="100%"/>
+</td>
+
+<td width="65%" valign="top" style="border:none;">
+
+<h3>
+Unveiling Multi-regime Patterns in SciML: Distinct Failure Modes and Regime-specific Optimization
+</h3>
+
+<p>
+Yuxin Wang*, Yuanzhe Hu*, Xiaokun Zhong*, <b>Xiaopeng Wang*</b>, Haiquan Lu, Tianyu Pang, Michael W. Mahoney, Yujun Yan, Pu Ren, Yaoqing Yang
+</p>
+
+<p>
+<b>ICML 2026</b>
+</p>
+
+<p>
+<a href="https://arxiv.org/abs/2605.29153">Paper</a> |
+<a href="https://github.com/leastima/sciml_multi_regime">Code</a> |
+</p>
+
+</td>
+
+</tr>
+</table>
+
 
 
 
