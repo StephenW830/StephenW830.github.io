@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-* denotes equal contribution
+<p>* denotes equal contribution.</p>
 
 <table style="border:none; border-collapse:collapse;">
 <tr>
