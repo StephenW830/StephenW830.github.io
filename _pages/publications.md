@@ -2,12 +2,29 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
-<p>* denotes equal contribution</p>
+<p class="publication-eyebrow">RESEARCH / SELECTED WORK</p>
+<p class="publication-intro">Scientific Machine Learning</p>
+<p class="publication-note">* denotes equal contribution · <a href="{{ site.author.googlescholar | escape }}">Google Scholar ↗</a></p>
+<style>
+#main > .archive:only-child {max-width:1080px;}
+.archive .publication-eyebrow {font-size:11px;letter-spacing:2px;font-weight:700;color:var(--site-accent);margin:0 0 12px;}
+.archive .publication-intro {font-family:Georgia,serif;font-size:28px;line-height:1.3;margin:0 0 16px;}
+.archive .publication-note {font-size:13px;color:var(--global-text-color-light);margin-bottom:32px;}
+.archive table.publication-card {border:1px solid var(--global-border-color)!important;border-collapse:separate!important;border-spacing:0;border-radius:12px;padding:24px;background:var(--global-bg-color);margin:24px 0;}
+.archive table.publication-card td {padding:8px 16px;}
+.archive table.publication-card td:first-child {padding-left:0;}
+.archive table.publication-card td:last-child {padding-right:0;}
+.archive table.publication-card h3 {font-size:22px;line-height:1.45;margin-bottom:16px;}
+.archive table.publication-card a {display:inline-block;font-size:13px;font-weight:650;text-decoration:none;padding:3px 0;}
+.archive table.publication-card a:hover {text-decoration:underline;}
+.archive hr {display:none;}
+@media(max-width:600px) {.archive table.publication-card {padding:18px;}.archive table.publication-card td {padding:10px 0;}.archive table.publication-card h3 {font-size:19px;}}
+</style>
 
-<table style="border:none; border-collapse:collapse;">
+<table class="publication-card" style="border:none; border-collapse:collapse;">
 <tr>
 
 <td width="35%" style="border:none;">
@@ -42,7 +59,7 @@ Xiaotian Liu, Shuyuan Shang, <b>Xiaopeng Wang</b>, Pu Ren, Yaoqing Yang
 
 ---
 
-<table style="border:none; border-collapse:collapse;">
+<table class="publication-card" style="border:none; border-collapse:collapse;">
 <tr>
 
 <td width="35%" style="border:none;">
