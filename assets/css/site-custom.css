@@ -1,0 +1,49 @@
+/* Shared visual language for Academic Pages and the custom homepage. */
+:root {--global-bg-color:#fafbf8;--global-text-color:#192d2b;--global-text-color-light:#61716c;--global-link-color:#21694f;--global-link-color-hover:#174d3a;--global-link-color-visited:#21694f;--global-border-color:#d8e1da;--global-footer-bg-color:#edf1eb;--global-masthead-link-color:#192d2b;--global-masthead-link-color-hover:#21694f;--site-accent:#21694f;}
+html[data-theme="dark"] {--global-bg-color:#17241e;--global-text-color:#e7eee9;--global-text-color-light:#a4b7ae;--global-link-color:#97d5b5;--global-link-color-hover:#c1ebd5;--global-link-color-visited:#97d5b5;--global-border-color:#374c42;--global-footer-bg-color:#1e3026;--global-masthead-link-color:#e7eee9;--global-masthead-link-color-hover:#97d5b5;--site-accent:#97d5b5;}
+body {font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.75;}
+a {text-underline-offset:4px;}
+a:focus-visible,button:focus-visible {outline:3px solid var(--site-accent);outline-offset:4px;}
+.masthead {border-bottom:1px solid var(--global-border-color);background:var(--global-bg-color);}
+.masthead__inner-wrap {max-width:1160px;padding:18px 40px;}
+.greedy-nav {background:var(--global-bg-color);}
+.greedy-nav a {font-size:14px;font-weight:600;}
+.greedy-nav .visible-links a::before {background:var(--site-accent);height:2px;}
+.masthead__menu-item--lg a {font-family:Georgia,serif;font-size:20px;font-weight:400;}
+#main:not(.academic-home) {max-width:1160px;margin:0 auto;padding:56px 40px 64px;display:grid;grid-template-columns:220px minmax(0,1fr);gap:56px;}
+#main:not(.academic-home)::after {display:none;}
+#main:not(.academic-home) > .sidebar {position:static;float:none;width:auto;max-width:none;height:auto;overflow:visible;padding:0;margin:0;opacity:1;}
+#main:not(.academic-home) > .page,#main:not(.academic-home) > .archive {float:none;width:auto;min-width:0;padding:0;margin:0;}
+#main:not(.academic-home) > .page:only-child,#main:not(.academic-home) > .archive:only-child {grid-column:1/-1;}
+.page__title {font-family:Georgia,serif;font-size:clamp(34px,4vw,48px);font-weight:400;letter-spacing:-1.5px;line-height:1.2;margin:0 0 32px;padding-bottom:24px;border-bottom:1px solid var(--global-border-color);}
+.page__content h2,.archive h2 {font-family:Georgia,serif;font-weight:400;letter-spacing:-.5px;border-color:var(--global-border-color);}
+.page__content,.archive {font-size:16px;}
+.author__avatar img {border-radius:48px 6px 6px 6px;padding:0;border:0;max-width:155px;}
+.author__name {font-family:Georgia,serif;font-size:23px;font-weight:400;margin-top:20px;}
+.author__bio,.author__urls {color:var(--global-text-color-light);font-size:13px;}
+.author__urls a {color:var(--global-link-color);}
+.archive table {width:100%;display:table;margin:28px 0;border:0;background:transparent;font-size:15px;}
+.archive table td {padding:20px 12px;vertical-align:top;overflow-wrap:anywhere;}
+.archive table td:first-child {padding-left:0;}
+.archive table td:last-child {padding-right:0;}
+.archive table img {border:1px solid var(--global-border-color);border-radius:8px;height:auto;}
+.archive table h3 {margin:0 0 14px;font-size:19px;line-height:1.5;font-weight:650;letter-spacing:-.25px;}
+.archive table p {margin:0 0 12px;}
+.archive hr {border:0;border-top:1px solid var(--global-border-color);margin:28px 0;}
+.btn {border-radius:5px;}
+.page__footer {color:var(--global-text-color-light);background:var(--global-footer-bg-color);border-top:1px solid var(--global-border-color);}
+.page__footer footer {max-width:1160px;padding:24px 40px;margin:0 auto;}
+@media(max-width:900px) {
+ #main:not(.academic-home) {grid-template-columns:1fr;gap:32px;padding:36px 24px;}
+ #main:not(.academic-home) > .sidebar {border-bottom:1px solid var(--global-border-color);padding-bottom:24px;}
+ .author__avatar img {max-width:100px;}
+ .masthead__inner-wrap {padding:14px 24px;}
+ .page__footer footer {padding:24px;}
+}
+@media(max-width:600px) {
+ .archive table,.archive table tbody,.archive table tr,.archive table td {display:block;width:100%!important;}
+ .archive table td {padding:12px 0;}
+ .archive table td:first-child {max-width:360px;}
+ .archive table img {width:100%;}
+ .page__title {margin-bottom:24px;}
+}
